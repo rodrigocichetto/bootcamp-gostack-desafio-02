@@ -100,6 +100,31 @@ O cadastro de alunos só pode ser feito por administradores autenticados na apli
 
 O aluno não pode se autenticar no sistema, ou seja, não possui senha.
 
+### Run
+
+```bash
+# using yarn
+yarn dev:debug
+# or using npm
+npm run dev:debug
+```
+
+#### Sequelize Migrate
+```bash
+# using yarn
+yarn sequelize db:migrate
+# or using npm
+npm run sequelize db:migrate
+```
+
+#### Sequelize Seed
+```bash
+# using yarn
+yarn sequelize db:seed:all
+# or using npm
+npm run sequelize db:seed:all
+```
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

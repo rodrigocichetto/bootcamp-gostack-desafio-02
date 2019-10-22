@@ -114,7 +114,7 @@ npm run dev:debug
 # using yarn
 yarn sequelize db:migrate
 # or using npm
-npm run sequelize db:migrate
+npx sequelize db:migrate
 ```
 
 #### Sequelize Seed
@@ -122,7 +122,7 @@ npm run sequelize db:migrate
 # using yarn
 yarn sequelize db:seed:all
 # or using npm
-npm run sequelize db:seed:all
+npx sequelize db:seed:all
 ```
 
 ## :memo: Licença
